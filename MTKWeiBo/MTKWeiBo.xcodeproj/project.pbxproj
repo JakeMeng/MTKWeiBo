@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		981B685E1CEEB83E0021C587 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981B685D1CEEB83E0021C587 /* MainViewController.swift */; };
+		981B68611CEEB8A40021C587 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981B68601CEEB8A40021C587 /* HomeTableViewController.swift */; };
+		981B68631CEEB8BB0021C587 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981B68621CEEB8BB0021C587 /* MessageTableViewController.swift */; };
+		981B68651CEEB8D80021C587 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981B68641CEEB8D80021C587 /* DiscoverTableViewController.swift */; };
+		981B68671CEEB8EA0021C587 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981B68661CEEB8EA0021C587 /* ProfileTableViewController.swift */; };
+		981B68691CEEF2A80021C587 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981B68681CEEF2A80021C587 /* BaseTableViewController.swift */; };
 		986064671CEDCD2000B78C36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986064661CEDCD2000B78C36 /* AppDelegate.swift */; };
-		986064691CEDCD2000B78C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986064681CEDCD2000B78C36 /* ViewController.swift */; };
 		9860646C1CEDCD2000B78C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9860646A1CEDCD2000B78C36 /* Main.storyboard */; };
 		9860646E1CEDCD2000B78C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9860646D1CEDCD2000B78C36 /* Assets.xcassets */; };
 		986064711CEDCD2000B78C36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9860646F1CEDCD2000B78C36 /* LaunchScreen.storyboard */; };
@@ -34,9 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		981B685D1CEEB83E0021C587 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		981B68601CEEB8A40021C587 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		981B68621CEEB8BB0021C587 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		981B68641CEEB8D80021C587 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
+		981B68661CEEB8EA0021C587 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		981B68681CEEF2A80021C587 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		986064631CEDCD2000B78C36 /* MTKWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTKWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		986064661CEDCD2000B78C36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		986064681CEDCD2000B78C36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9860646B1CEDCD2000B78C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9860646D1CEDCD2000B78C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		986064701CEDCD2000B78C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +84,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		981B68561CEEB7DE0021C587 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				981B68571CEEB7DE0021C587 /* Model */,
+				981B68581CEEB7DE0021C587 /* Module */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		981B68571CEEB7DE0021C587 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		981B68581CEEB7DE0021C587 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				981B685B1CEEB7DE0021C587 /* Main */,
+				981B685A1CEEB7DE0021C587 /* Home */,
+				981B685C1CEEB7DE0021C587 /* Message */,
+				981B68591CEEB7DE0021C587 /* Discover */,
+				981B685F1CEEB87E0021C587 /* Profile */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		981B68591CEEB7DE0021C587 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				981B68641CEEB8D80021C587 /* DiscoverTableViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		981B685A1CEEB7DE0021C587 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				981B68601CEEB8A40021C587 /* HomeTableViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		981B685B1CEEB7DE0021C587 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				981B685D1CEEB83E0021C587 /* MainViewController.swift */,
+				981B68681CEEF2A80021C587 /* BaseTableViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		981B685C1CEEB7DE0021C587 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				981B68621CEEB8BB0021C587 /* MessageTableViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		981B685F1CEEB87E0021C587 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				981B68661CEEB8EA0021C587 /* ProfileTableViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		9860645A1CEDCD2000B78C36 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +176,8 @@
 		986064651CEDCD2000B78C36 /* MTKWeiBo */ = {
 			isa = PBXGroup;
 			children = (
+				981B68561CEEB7DE0021C587 /* Classes */,
 				986064661CEDCD2000B78C36 /* AppDelegate.swift */,
-				986064681CEDCD2000B78C36 /* ViewController.swift */,
 				9860646A1CEDCD2000B78C36 /* Main.storyboard */,
 				9860646D1CEDCD2000B78C36 /* Assets.xcassets */,
 				9860646F1CEDCD2000B78C36 /* LaunchScreen.storyboard */,
@@ -256,8 +335,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986064691CEDCD2000B78C36 /* ViewController.swift in Sources */,
+				981B68671CEEB8EA0021C587 /* ProfileTableViewController.swift in Sources */,
+				981B68611CEEB8A40021C587 /* HomeTableViewController.swift in Sources */,
 				986064671CEDCD2000B78C36 /* AppDelegate.swift in Sources */,
+				981B68691CEEF2A80021C587 /* BaseTableViewController.swift in Sources */,
+				981B68631CEEB8BB0021C587 /* MessageTableViewController.swift in Sources */,
+				981B68651CEEB8D80021C587 /* DiscoverTableViewController.swift in Sources */,
+				981B685E1CEEB83E0021C587 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = MTKWeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qfpay.com.MTKWeiBo;
@@ -410,6 +495,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = MTKWeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qfpay.com.MTKWeiBo;
@@ -482,6 +568,7 @@
 				9860648D1CEDCD2000B78C36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9860648E1CEDCD2000B78C36 /* Build configuration list for PBXNativeTarget "MTKWeiBoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +577,7 @@
 				986064901CEDCD2000B78C36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		986064911CEDCD2000B78C36 /* Build configuration list for PBXNativeTarget "MTKWeiBoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +586,7 @@
 				986064931CEDCD2000B78C36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
