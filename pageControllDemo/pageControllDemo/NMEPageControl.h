@@ -10,4 +10,9 @@
 
 @interface NMEPageControl : UIView
 
+@property (nonatomic,assign) NSInteger numberOfPages;
+@property (nonatomic,assign) NSInteger currentPage;
+
+- (void)numberOfPages:(NSInteger)numberOfPages pointSize:(CGSize)size borderColor:(UIColor *)color;
+
 @end

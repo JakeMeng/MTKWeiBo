@@ -1,15 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NMECollectPointGuideView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LXR-bU-mDZ">
+                    <rect key="frame" x="38" y="118" width="244" height="333"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="会员参与集点活动步骤" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeb-bC-hRx">
+                            <rect key="frame" x="47" y="0.0" width="150" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="xES-SG-OCL"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="w1f-XY-a0j">
+                            <rect key="frame" x="0.0" y="29" width="244" height="279"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="w1f-XY-a0j" secondAttribute="height" multiplier="300:343" id="0Bq-L4-qmF"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Txp-Ln-ikC">
+                                <size key="itemSize" width="50" height="50"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ohX-tu-Y2E" customClass="NMEPageControl">
+                            <rect key="frame" x="72" y="323" width="100" height="10"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="10" id="uGU-ue-Lnn"/>
+                                <constraint firstAttribute="width" constant="100" id="zd7-95-BzY"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="ohX-tu-Y2E" firstAttribute="centerX" secondItem="LXR-bU-mDZ" secondAttribute="centerX" id="I6L-nU-qi5"/>
+                        <constraint firstItem="w1f-XY-a0j" firstAttribute="top" secondItem="xeb-bC-hRx" secondAttribute="bottom" constant="15" id="Jfb-l5-CNf"/>
+                        <constraint firstItem="w1f-XY-a0j" firstAttribute="leading" secondItem="LXR-bU-mDZ" secondAttribute="leading" id="nPe-cp-zk5"/>
+                        <constraint firstAttribute="bottom" secondItem="ohX-tu-Y2E" secondAttribute="bottom" id="nkb-ki-lmL"/>
+                        <constraint firstItem="xeb-bC-hRx" firstAttribute="centerX" secondItem="LXR-bU-mDZ" secondAttribute="centerX" id="rIB-xg-KSa"/>
+                        <constraint firstItem="xeb-bC-hRx" firstAttribute="top" secondItem="LXR-bU-mDZ" secondAttribute="top" id="rom-0R-Tg7"/>
+                        <constraint firstAttribute="trailing" secondItem="w1f-XY-a0j" secondAttribute="trailing" id="xlh-Wy-OFr"/>
+                        <constraint firstItem="ohX-tu-Y2E" firstAttribute="top" secondItem="w1f-XY-a0j" secondAttribute="bottom" constant="15" id="zhc-hH-9fk"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="LXR-bU-mDZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="38" id="7D7-Dv-OjT"/>
+                <constraint firstAttribute="trailing" secondItem="LXR-bU-mDZ" secondAttribute="trailing" constant="38" id="7u2-H0-2F3"/>
+                <constraint firstItem="LXR-bU-mDZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SWT-FQ-dTD"/>
+                <constraint firstItem="LXR-bU-mDZ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="e9c-6U-IO9"/>
+            </constraints>
+            <connections>
+                <outlet property="_collectionView" destination="w1f-XY-a0j" id="Khi-Kc-Tk5"/>
+                <outlet property="_pageControl" destination="ohX-tu-Y2E" id="ILl-fr-CJg"/>
+            </connections>
+            <point key="canvasLocation" x="349" y="398"/>
         </view>
     </objects>
 </document>

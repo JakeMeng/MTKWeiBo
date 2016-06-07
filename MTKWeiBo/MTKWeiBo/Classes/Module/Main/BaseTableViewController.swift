@@ -16,15 +16,22 @@ class BaseTableViewController: UITableViewController {
         userLogin ? super.loadView() : setupVistorView()
     }
     
+//    override func viewWillAppear(animated: Bool) {
+//        userLogin ? super.viewWillAppear(animated) :
+//    }
+    
     private func setupVistorView() {
-        //替换根视图
-        view = UIView()
-        view.backgroundColor = UIColor.orangeColor()
+        
+        if self.isKindOfClass(HomeTableViewController) {
+            //替换根视图
+            view = VisitorLoginView()
+            view.backgroundColor = UIColor.whiteColor()
+        }
+
         
         //设置导航按钮
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title:"注册", style: UIBarButtonItemStyle.Plain, target:nil, action:nil)
         
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "登陆", style: UIBarButtonItemStyle.Plain,target:nil, action: nil)
     }
-
 }

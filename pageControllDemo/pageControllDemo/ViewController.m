@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "NMECollectPointGuideView.h"
 
-@interface ViewController ()
+@interface ViewController () {
+    NMECollectPointGuideView *_guideView;
+}
 
 @end
 
@@ -16,12 +19,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _guideView = (NMECollectPointGuideView *)[[[NSBundle mainBundle] loadNibNamed:@"NMECollectPointGuideView" owner:self options:NULL] firstObject];
+    _guideView.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
+    [self.view addSubview:_guideView];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

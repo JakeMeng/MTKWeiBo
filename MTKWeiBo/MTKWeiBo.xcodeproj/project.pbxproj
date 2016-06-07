@@ -13,6 +13,7 @@
 		981B68651CEEB8D80021C587 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981B68641CEEB8D80021C587 /* DiscoverTableViewController.swift */; };
 		981B68671CEEB8EA0021C587 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981B68661CEEB8EA0021C587 /* ProfileTableViewController.swift */; };
 		981B68691CEEF2A80021C587 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981B68681CEEF2A80021C587 /* BaseTableViewController.swift */; };
+		981C4F7F1D018BBF003DAB5D /* VisitorLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981C4F7E1D018BBF003DAB5D /* VisitorLoginView.swift */; };
 		986064671CEDCD2000B78C36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986064661CEDCD2000B78C36 /* AppDelegate.swift */; };
 		9860646C1CEDCD2000B78C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9860646A1CEDCD2000B78C36 /* Main.storyboard */; };
 		9860646E1CEDCD2000B78C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9860646D1CEDCD2000B78C36 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		981B68641CEEB8D80021C587 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
 		981B68661CEEB8EA0021C587 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		981B68681CEEF2A80021C587 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		981C4F7E1D018BBF003DAB5D /* VisitorLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorLoginView.swift; sourceTree = "<group>"; };
 		986064631CEDCD2000B78C36 /* MTKWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTKWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		986064661CEDCD2000B78C36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9860646B1CEDCD2000B78C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			children = (
 				981B685D1CEEB83E0021C587 /* MainViewController.swift */,
 				981B68681CEEF2A80021C587 /* BaseTableViewController.swift */,
+				981C4F7E1D018BBF003DAB5D /* VisitorLoginView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				986064671CEDCD2000B78C36 /* AppDelegate.swift in Sources */,
 				981B68691CEEF2A80021C587 /* BaseTableViewController.swift in Sources */,
 				981B68631CEEB8BB0021C587 /* MessageTableViewController.swift in Sources */,
+				981C4F7F1D018BBF003DAB5D /* VisitorLoginView.swift in Sources */,
 				981B68651CEEB8D80021C587 /* DiscoverTableViewController.swift in Sources */,
 				981B685E1CEEB83E0021C587 /* MainViewController.swift in Sources */,
 			);

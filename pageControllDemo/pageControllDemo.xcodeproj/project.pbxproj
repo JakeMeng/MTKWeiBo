@@ -15,6 +15,12 @@
 		9825A6C41CFBF20D006533DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9825A6C21CFBF20D006533DB /* LaunchScreen.storyboard */; };
 		9825A6CF1CFBF20D006533DB /* pageControllDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9825A6CE1CFBF20D006533DB /* pageControllDemoTests.m */; };
 		9825A6DA1CFBF20D006533DB /* pageControllDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9825A6D91CFBF20D006533DB /* pageControllDemoUITests.m */; };
+		9825A6E91CFBF3CC006533DB /* NMECollectPointGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9825A6E81CFBF3CC006533DB /* NMECollectPointGuideView.m */; };
+		9825A6EB1CFBF400006533DB /* NMECollectPointGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9825A6EA1CFBF400006533DB /* NMECollectPointGuideView.xib */; };
+		9825A6ED1CFC04BF006533DB /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9825A6EC1CFC04BF006533DB /* images.xcassets */; };
+		9825A6F11CFC0546006533DB /* NMEPointIntroCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9825A6EF1CFC0546006533DB /* NMEPointIntroCollectionViewCell.m */; };
+		9825A6F21CFC0546006533DB /* NMEPointIntroCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9825A6F01CFC0546006533DB /* NMEPointIntroCollectionViewCell.xib */; };
+		9825A6F51CFC3C2B006533DB /* NMEPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9825A6F41CFC3C2B006533DB /* NMEPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,15 @@
 		9825A6D51CFBF20D006533DB /* pageControllDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pageControllDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9825A6D91CFBF20D006533DB /* pageControllDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pageControllDemoUITests.m; sourceTree = "<group>"; };
 		9825A6DB1CFBF20D006533DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9825A6E71CFBF3CC006533DB /* NMECollectPointGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMECollectPointGuideView.h; sourceTree = "<group>"; };
+		9825A6E81CFBF3CC006533DB /* NMECollectPointGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMECollectPointGuideView.m; sourceTree = "<group>"; };
+		9825A6EA1CFBF400006533DB /* NMECollectPointGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NMECollectPointGuideView.xib; sourceTree = "<group>"; };
+		9825A6EC1CFC04BF006533DB /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		9825A6EE1CFC0546006533DB /* NMEPointIntroCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMEPointIntroCollectionViewCell.h; sourceTree = "<group>"; };
+		9825A6EF1CFC0546006533DB /* NMEPointIntroCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMEPointIntroCollectionViewCell.m; sourceTree = "<group>"; };
+		9825A6F01CFC0546006533DB /* NMEPointIntroCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NMEPointIntroCollectionViewCell.xib; sourceTree = "<group>"; };
+		9825A6F31CFC3C2B006533DB /* NMEPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMEPageControl.h; sourceTree = "<group>"; };
+		9825A6F41CFC3C2B006533DB /* NMEPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMEPageControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,12 @@
 			children = (
 				9825A6B71CFBF20D006533DB /* AppDelegate.h */,
 				9825A6B81CFBF20D006533DB /* AppDelegate.m */,
+				9825A6E71CFBF3CC006533DB /* NMECollectPointGuideView.h */,
+				9825A6E81CFBF3CC006533DB /* NMECollectPointGuideView.m */,
+				9825A6EA1CFBF400006533DB /* NMECollectPointGuideView.xib */,
+				9825A6EE1CFC0546006533DB /* NMEPointIntroCollectionViewCell.h */,
+				9825A6EF1CFC0546006533DB /* NMEPointIntroCollectionViewCell.m */,
+				9825A6F01CFC0546006533DB /* NMEPointIntroCollectionViewCell.xib */,
 				9825A6BA1CFBF20D006533DB /* ViewController.h */,
 				9825A6BB1CFBF20D006533DB /* ViewController.m */,
 				9825A6BD1CFBF20D006533DB /* Main.storyboard */,
@@ -110,6 +131,9 @@
 				9825A6C21CFBF20D006533DB /* LaunchScreen.storyboard */,
 				9825A6C51CFBF20D006533DB /* Info.plist */,
 				9825A6B41CFBF20D006533DB /* Supporting Files */,
+				9825A6EC1CFC04BF006533DB /* images.xcassets */,
+				9825A6F31CFC3C2B006533DB /* NMEPageControl.h */,
+				9825A6F41CFC3C2B006533DB /* NMEPageControl.m */,
 			);
 			path = pageControllDemo;
 			sourceTree = "<group>";
@@ -244,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9825A6C41CFBF20D006533DB /* LaunchScreen.storyboard in Resources */,
+				9825A6F21CFC0546006533DB /* NMEPointIntroCollectionViewCell.xib in Resources */,
 				9825A6C11CFBF20D006533DB /* Assets.xcassets in Resources */,
+				9825A6EB1CFBF400006533DB /* NMECollectPointGuideView.xib in Resources */,
 				9825A6BF1CFBF20D006533DB /* Main.storyboard in Resources */,
+				9825A6ED1CFC04BF006533DB /* images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +299,10 @@
 			files = (
 				9825A6BC1CFBF20D006533DB /* ViewController.m in Sources */,
 				9825A6B91CFBF20D006533DB /* AppDelegate.m in Sources */,
+				9825A6F11CFC0546006533DB /* NMEPointIntroCollectionViewCell.m in Sources */,
+				9825A6E91CFBF3CC006533DB /* NMECollectPointGuideView.m in Sources */,
 				9825A6B61CFBF20D006533DB /* main.m in Sources */,
+				9825A6F51CFC3C2B006533DB /* NMEPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +526,7 @@
 				9825A6E01CFBF20D006533DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9825A6E11CFBF20D006533DB /* Build configuration list for PBXNativeTarget "pageControllDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +535,7 @@
 				9825A6E31CFBF20D006533DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9825A6E41CFBF20D006533DB /* Build configuration list for PBXNativeTarget "pageControllDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +544,7 @@
 				9825A6E61CFBF20D006533DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,4 +10,6 @@
 
 @interface NMEPointIntroCollectionViewCell : UICollectionViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *inrtoImageView;
+
 @end
